@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar-wrapper {
+    display: sticky;
+    margin: 0;
+}
+
+.nav-img {
+    height: 100px;
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
