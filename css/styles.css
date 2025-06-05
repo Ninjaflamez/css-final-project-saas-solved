@@ -69,7 +69,7 @@ nav a:hover {
     color: white;
     height: 50px;
     width: 100px;
-    border-radius: 15px;
+    border-radius: 25px 25px 25px 25px;
     border: 1px solid rgb(103, 139, 240);
     transition: 0.3s ease-in-out;
 }
@@ -139,7 +139,7 @@ nav a:hover {
     color: white;
     height: 50px;
     width: 150px;
-    border-radius: 15px;
+    border-radius: 25px 25px 25px 25px;
     border: 1px solid rgb(103, 139, 240);
     transition: 0.3s ease-in-out;
     gap: 10px;
@@ -173,7 +173,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 500px;
+    height: 400px;
     width: 50%;
     gap: 50px;
     margin: 50px 0px 50px 50px;
@@ -298,5 +298,108 @@ nav a:hover {
     height: 400px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
 }
+
+.why-front-header {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-front-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.why-front-small-text {
+    display: flex;
+    flex-flow: row wrap;
+    width: 600px;
+    color: grey;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.why-front-bullet-list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.why-front-bullet-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+
+.basic-elements-container, .components-container, .combined-components-container, .page-layouts-container {
+    display: flex;
+    flex-direction: column;
+    width:25%;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#bullet-one, #bullet-two, #bullet-three, #bullet-four {
+    border: 5px solid blue;
+    border-radius: 50%;
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bullet-one-wrapper, .bullet-two-wrapper, .bullet-three-wrapper, .bullet-four-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: aliceblue;
+    border: aliceblue 1px solid;
+    box-shadow: 0px 1px 5px 5px grey;
+    border-radius: 50%;
+}
+
+.pricing-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-top-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    gap: 20px;
+}
+
+.pricing-text {
+    font-size: 30px;
+    text-align: center;
+}
+
+.pricing-text-small {
+    text-align: center;
+    color: grey;
+}
+
 
