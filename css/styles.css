@@ -405,7 +405,7 @@ nav a:hover {
     color: grey;
 }
 
-.pricing-section-botton-container {
+.pricing-section-bottom-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -437,6 +437,14 @@ nav a:hover {
     height: 150px;
     gap: 35px;
     font-size: 30px;
+}
+
+.price-right-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
 }
 
 .price-right-box-wrapper {
