@@ -439,6 +439,37 @@ nav a:hover {
     font-size: 30px;
 }
 
+.price-right-box-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.puzzle-icon, .diamond-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.price-right-top-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 66%;
+    height: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
 .form-section-container {
     display: flex;
     justify-content: center;
