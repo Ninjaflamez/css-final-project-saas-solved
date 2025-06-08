@@ -397,7 +397,9 @@ nav a:hover {
 
 .pricing-text {
     font-size: 30px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pricing-text-small {
@@ -412,6 +414,8 @@ nav a:hover {
     width: 100%;
     padding: 10px;
     height: 600px;
+    gap: 30px;
+    padding-bottom: 50px;
 }
 
 .price-left-box {
@@ -433,10 +437,37 @@ nav a:hover {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 33%;
+    width: 100%;
     height: 150px;
     gap: 35px;
     font-size: 30px;
+    border-bottom: 2px grey solid;
+}
+
+.price-box-text {
+    color: grey;
+    text-align: center;
+}
+
+.price-per-month {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    color: grey;
+}
+
+.price-left-box-button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price-button-container-text {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: grey;
 }
 
 .price-right-box {
@@ -444,7 +475,6 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-
 }
 
 .price-right-box-wrapper {
@@ -452,31 +482,38 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    row-gap: 30px;
 }
 
-.puzzle-icon, .diamond-icon {
+.puzzle-icon, .diamond-icon, .cancel-icon, .moneyback-icon {
     height: 50px;
     width: 50px;
 }
 
-.price-right-top-box {
+.price-right-top-left-box, .price-right-top-right-box, .price-right-bottom-left-box, .price-right-bottom-right-box {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    width: 66%;
-    height: 600px;
+    align-items: flex-start;
+    width: 50%;
+    gap: 20px;
 }
 
+.price-right-bottom-left-header-text-container {
+    display: flex;
+    gap: 35px;
+}
 
-
-
-
-
-
-
-
-
+.sketch-button {
+    border: 1px solid rgb(72, 187, 187);
+    background-color: rgb(72, 187, 187);
+    border-radius: 25px 25px 25px 25px;
+    color: white;
+    width: 75px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .form-section-container {
     display: flex;
@@ -486,3 +523,4 @@ nav a:hover {
     height: 600px;
     background-color: rgb(38, 70, 158);
 }
+
