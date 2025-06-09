@@ -145,13 +145,6 @@ nav a:hover {
     gap: 10px;
 }
 
-i {
-    display: flex;
-    stroke: white;
-    width: 30px;
-    height: 30px;
-}
-
 .header-button:hover {
     background-color: white;
     color: rgb(103, 139, 240);
@@ -159,11 +152,11 @@ i {
     transform: scale(1.1);
 }
 
-/* .header-button>img {
+.header-button>img {
     width: 20px;
     height: 20px;
     color: white;
-} */
+}
 
 .learn-more {
     color: gray;
@@ -570,10 +563,11 @@ i {
 
 .hire-us-quote {
     display: flex;
-    align-items: space;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
     border-top: 2px solid grey;
     color: white;
+    width: 100%;
     padding-top: 50px;
 }
 
@@ -593,13 +587,13 @@ i {
     border-radius: 50%;
 }
 
-.form-container {
+.form {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: white;
-    width: 50%;
+    width: 100%;
     border-radius: 10px;
     height: 840px;
     padding: 30px;
@@ -641,4 +635,32 @@ i {
 
 .label-first-name, .label-last-name {
     display: none;
+}
+
+.select-options-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.budget-container, .country-container {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    flex: 1;
+}
+
+.budget-selection, .country-selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50%;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+textarea {
+    display: flex;
+
 }
