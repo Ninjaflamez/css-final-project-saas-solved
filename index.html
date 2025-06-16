@@ -42,7 +42,7 @@
         </div>
         <div class="header-button-learn-more">
           <div class="header-button-wrapper">
-            <button type="button" class="header-button"><!--<img src="./assets/logos/circle-play-solid.svg" alt="circle play" class="circle-play-button">-->Play Video</button>
+            <button type="button" class="header-button"><img src="./assets/logos/circle-play-regular.svg" alt="circle play" class="circle-play-button">Play Video</button>
             <a href="" class="learn-more">Learn More</a>
           </div>
         </div>
@@ -160,7 +160,7 @@
             </div>
             <div class="price-left-box-button-container">
               <div class="price-left-box-button">
-                <button type="button" class="header-button"><img src="./assets/logos/circle-play-solid.svg" alt="circle play" class="circle-play-button">Play Video</button>
+                <button type="button" class="header-button"><!--<img src="./assets/logos/circle-play-solid.svg" alt="circle play" class="circle-play-button">-->Play Video</button>
               </div>
               <div class="price-left-box-lower-text">
                 <p class="price-button-container-text">No credit card required.</p>
@@ -270,17 +270,17 @@
             <div class="label-first-name">
               <label for="first-name"></label>
             </div>
-            <input type="text" class="first-name" id="first-name-text" maxlength="100" placeholder="First name">
+            <input type="text" class="first-name" id="first-name" maxlength="100" placeholder="First name">
             <div class="label-last-name">
               <label for="last-name"></label>
             </div>
-            <input type="text" class="last-name" id="last-name-text" maxlength="100" placeholder="Last name">
+            <input type="text" class="last-name" id="last-name" maxlength="100" placeholder="Last name">
           </div>
           <div class="email-container">
             <div class="form-email">
               <label for="email"></label>
             </div>
-            <input type="text" class="email" id="email-text" maxlength="100" placeholder="Email">
+            <input type="text" class="email" id="email" maxlength="100" placeholder="Email">
           </div>
           <div class="select-options-container">
             <div class="budget-container">
@@ -293,7 +293,7 @@
               </select>
             </div>
             <div class="country-container">
-              <select name="country" id="country-select" class="country-selection">
+              <select name="country" id="country-select" class="country-selection" placeholder="budget">
                 <option value="usa">USA</option>
                 <option value="canada">Canada</option>
                 <option value="mexico">Mexico</option>
@@ -303,14 +303,45 @@
               </select>
             </div>
           </div>
-          <div class="text-area">
-            <textarea name="tell-us-more" id="tell-us-more" class="text-area-comments" placeholder="Tell us more about your project, needs, and timeline, please..." ></textarea>
+          <div class="text-area-container">
+            <div class="text-area">
+              <label for="tell-us-more-text-area" class="tell-us-more-text-area"></label>
+              <textarea name="tell-us-more" id="tell-us-more-text-area" class="text-area-comments" placeholder="Tell us more about your project, needs, and timeline, please..." rows="20" cols="90"></textarea>
+            </div>
+          </div>
+          <div class="checkbox-container">
+            <input type="checkbox" class="extra-emails" id="checkbox">
+            <div class="checkbox-label">
+              <label for="checkbox">Yes, I'd like to receive occasional marketing emails from Front. I have the right to opt out at any time.</label>
+            </div>
+          </div>
+          <div class="submit-button">
+            <button type="submit" class="submit-btn">Submit form</button>
           </div>
         </form>
       </div>
     </div>
     <div class="footer-container">
-
+      <div class="footer-content">
+        <div class="footer-contact-info">
+          <div class="front-img">
+            <img src="./assets/logos/logo-front.svg" alt="front-img" class="nav-img">
+          </div>
+          <div class="footer-address">
+            <div class="footer-pointer-icon">
+              <img src="./assets/logos/location-arrow-solid.svg" alt="footer pointer" clas="pointer">
+              <div class="footer-address-text-container"><p class="footer-address-text">153 Williamson Plaza, Maggieberg</p></div>
+            </div>
+            <div class="footer-phone">
+              <div class="footer-phone-icon">
+                <img src="./assets/logos/phone-solid.svg" alt="footer-phone-icon" class="phone">
+                <div class="phone-number-text-container">
+                  <a href="tel:+10621099222"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
