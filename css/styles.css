@@ -742,16 +742,28 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
     width: 100%;
 }
 
 .footer-contact-info {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.front-img, .footer-address, .footer-phone {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .front-img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 35px;
     height: 25px;
 }
@@ -759,4 +771,13 @@ nav a:hover {
 .phone, .pointer {
     width: 15px;
     height: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer-ointer-icon {
+    display: flex;
+    flex-flow: row nowrap;
 }
