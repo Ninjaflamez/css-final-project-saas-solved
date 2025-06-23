@@ -730,19 +730,13 @@ nav a:hover {
 
 .footer-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     width: 100%;
     height: 250px;
     background-color: white;
     padding: 50px;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    gap: 30px;
 }
 
 .footer-contact-info {
@@ -750,34 +744,69 @@ nav a:hover {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    /* width: 100%; */
 }
 
-.front-img, .footer-address, .footer-phone {
+.footer-address, .footer-phone {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column;
     width: 100%;
     justify-content: flex-start;
     align-items: flex-start;
+    gap: 25px;
+}
+
+.nav-img-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
 }
 
 .front-img {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 35px;
-    height: 25px;
+    flex-direction: column;
+    width: 100%;
+    height: 88px;
 }
 
 .phone, .pointer {
     width: 15px;
     height: 15px;
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
+    flex-flow: column;
+    justify-content: flex-start;
     align-items: flex-start;
 }
 
-.footer-ointer-icon {
+.footer-pointer-icon, .footer-phone-icon {
     display: flex;
     flex-flow: row nowrap;
+    gap: 10px;
+}
+
+.company-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.company-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.company-list-items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    flex-direction: column;
 }
