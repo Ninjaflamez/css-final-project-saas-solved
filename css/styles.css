@@ -714,6 +714,16 @@ nav a:hover {
     height: 25px;
 }
 
+.view-privacy-policy-option {
+    color: grey;
+    text-decoration: underline dashed 1px;
+}
+
+.view-privacy-policy-option:hover {
+    transform: scale(1.1);
+    color: rgb(103, 139, 240);
+}
+
 .submit-btn {
     display: flex;
     justify-content: center;
@@ -810,3 +820,11 @@ nav a:hover {
     gap: 15px;
     flex-direction: column;
 }
+
+.features-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
