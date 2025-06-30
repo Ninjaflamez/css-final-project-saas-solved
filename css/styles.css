@@ -74,10 +74,6 @@ nav a:hover {
     transition: 0.3s ease-in-out;
 }
 
-.circle-play-button {
-    accent-color: inherit;
-}
-
 .nav-button:hover {
     background-color: white;
     color: rgb(103, 139, 240);
@@ -160,6 +156,7 @@ nav a:hover {
     width: 20px;
     height: 20px;
     color: white;
+    border-radius: 50%;
 }
 
 .learn-more {
@@ -268,7 +265,7 @@ nav a:hover {
     width: 25%;
 }
 
-.paypal-icon-container {
+.paypal-icon-container, .google-ads-icon-container {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -280,13 +277,6 @@ nav a:hover {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    width: 50%;
-}
-
-.google-ads-icon-container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
     width: 50%;
 }
 
@@ -385,8 +375,6 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 600px;
-    padding-bottom: 20px;
 }
 
 .pricing-top-text {
@@ -411,6 +399,15 @@ nav a:hover {
     color: grey;
 }
 
+.pricing-section-top-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
 .pricing-section-bottom-container {
     display: flex;
     justify-content: center;
@@ -423,6 +420,19 @@ nav a:hover {
 }
 
 .price-left-box {
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 33%;
+    height: 400px;
+    padding: 25px;
+    gap: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+.price-left-box:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -430,11 +440,14 @@ nav a:hover {
     width: 33%;
     height: 400px;
     border: grey 1px solid;
+    border-radius: 8px;
     background-color: white;
     box-shadow: 0px 1px 5px 5px grey;
     margin-left: 20px;
     padding: 25px;
     gap: 50px;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
 }
 
 .price-left-box-top {
@@ -630,7 +643,8 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    
+    width: 100%;
+    gap: 50px;
 }
 
 .first-name, .last-name {
@@ -638,9 +652,13 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     height: 50px;
-    width: 45%;
+    width: 100%;
     border: 1px solid grey;
     border-radius: 8px;
+}
+
+.email-container {
+    width: 100%;
 }
 
 .form-email {
@@ -669,12 +687,13 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
+    gap: 50px;
 }
 
 .budget-container, .country-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     height: 50px;
     width: 100%;
 }
@@ -684,9 +703,15 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     height: 50px;
-    width: 50%;
+    width: 100%;
     border: 1px solid grey;
     border-radius: 8px;
+}
+
+.text-area-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .text-area {
@@ -694,7 +719,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-    resize: none;
+    /* resize: none; */
 }
 
 .text-area-comments {
@@ -782,7 +807,7 @@ nav a:hover {
     height: 88px;
 }
 
-.phone, .pointer {
+.phone, .pointer, .help-icon, .your-account-icon {
     width: 15px;
     height: 15px;
     display: flex;
@@ -791,13 +816,13 @@ nav a:hover {
     align-items: flex-start;
 }
 
-.footer-pointer-icon, .footer-phone-icon {
+.footer-pointer-icon, .footer-phone-icon, .help-icon, .your-account-icon {
     display: flex;
     flex-flow: row nowrap;
     gap: 10px;
 }
 
-.company-container {
+.company-container, .features-container, .documentation-container, .resources-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -805,7 +830,7 @@ nav a:hover {
     width: 100%;
 }
 
-.company-list {
+.company-list, .features-list, .documentation-list, .resources-list {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -813,7 +838,7 @@ nav a:hover {
     gap: 25px;
 }
 
-.company-list-items {
+.company-list-items, .features-list-items, .documentation-items-list, .resources-items-list {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -821,10 +846,10 @@ nav a:hover {
     flex-direction: column;
 }
 
-.features-container {
+.help-icon-container, .your-account-icon-container {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
