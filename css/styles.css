@@ -712,6 +712,7 @@ nav a:hover {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    width: 100%;
 }
 
 .text-area {
@@ -790,23 +791,6 @@ nav a:hover {
     align-items: flex-start;
     gap: 25px;
 }
-
-/* .nav-img-footer {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 100%;
-    height: 50px;
-} */
-
-/* .front-img {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 100%;
-    height: 100px;
-} */
 
 .footer-contact-info {
     display: flex;
