@@ -779,7 +779,7 @@ nav a:hover {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    /* width: 100%; */
+    width: 100%;
 }
 
 .footer-address, .footer-phone {
@@ -791,20 +791,33 @@ nav a:hover {
     gap: 25px;
 }
 
-.nav-img-footer {
+/* .nav-img-footer {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     width: 100%;
-}
+    height: 50px;
+} */
 
-.front-img {
+/* .front-img {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
     width: 100%;
-    height: 88px;
+    height: 100px;
+} */
+
+.footer-contact-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-img-footer {
+    width: 175px;
 }
 
 .phone, .pointer, .help-icon, .your-account-icon {
