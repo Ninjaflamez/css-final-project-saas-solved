@@ -771,8 +771,9 @@ nav a:hover {
     width: 100%;
     height: 250px;
     background-color: white;
-    padding: 50px;
+    padding: 30px;
     gap: 30px;
+    transition: 0.3s ease-in-out;
 }
 
 .footer-contact-info {
@@ -851,3 +852,31 @@ nav a:hover {
     gap: 10px;
 }
 
+.career-option {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.werehiring-box {
+    border: 1px solid rgb(103, 139, 240);
+    background-color: rgb(103, 139, 240);
+    border-radius: 25px 25px 25px 25px;
+    color: white;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    padding: 2px;
+    transition: 0.3s ease-in-out;
+}
+
+.werehiring-box:hover {
+    transform: scale(1.3);
+}
+
+.about:hover, .career:hover, .blog:hover, .customers:hover, .hire-us-footer:hover, .support:hover, .docs:hover, .status:hover, .api-reference:hover, .tech-requirements:hover, .press:hover, .release-notes:hover, .integrations:hover, .pricing:hover, .help:hover, .your-account:hover {
+    color: rgb(103, 139, 240);
+    transform: scale(1.1);
+}
