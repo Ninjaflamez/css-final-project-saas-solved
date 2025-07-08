@@ -185,6 +185,8 @@ nav a:hover {
     flex-flow: row nowrap;
     height: 125px;
     padding: 15px;
+    animation: slide-in;
+    animation-duration: 3s;
 }
 
 .header-right-icons-row-two {
@@ -193,6 +195,8 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     height: 125px;
+    animation: slide-in;
+    animation-duration: 3s;
 }
 
 .header-right-row-three {
@@ -200,6 +204,8 @@ nav a:hover {
     flex-flow: row nowrap;
     height: 125px;
     padding-left: 70px;
+    animation: slide-up;
+    animation-duration: 3s;
 }
 
 .header-right-row-four {
@@ -207,6 +213,8 @@ nav a:hover {
     flex-flow: row nowrap;
     height: 125px;
     padding-left: 250px;
+    animation: slide-up;
+    animation-duration: 3s;
 }
 
 .google-icon-wrapper, .google-ads-icon-wrapper {
@@ -329,6 +337,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding: 30px;
 }
 
 .why-front-bullet-list {
@@ -337,6 +346,7 @@ nav a:hover {
     align-items: center;
     flex-flow: row nowrap;
     width: 100%;
+    padding: 20px;
 }
 
 .basic-elements-container, .components-container, .combined-components-container, .page-layouts-container {
@@ -356,6 +366,23 @@ nav a:hover {
     justify-content: center;
     align-items: center;
 }
+
+/* .outline-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.outlineone, .outlinetwo, .outlinethree {
+    border: 1px solid grey;
+    width: 10%;
+    height: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
 
 .bullet-one-wrapper, .bullet-two-wrapper, .bullet-three-wrapper, .bullet-four-wrapper {
     display: flex;
@@ -764,6 +791,11 @@ nav a:hover {
     gap: 10px;
 }
 
+.submit-btn:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
 .footer-container {
     display: flex;
     align-items: flex-start;
@@ -868,7 +900,8 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     font-size: 10px;
-    padding: 2px;
+    padding: 4px;
+    gap: 4px;
     transition: 0.3s ease-in-out;
 }
 
@@ -880,3 +913,28 @@ nav a:hover {
     color: rgb(103, 139, 240);
     transform: scale(1.1);
 }
+
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+  }
+
+  to {
+    transform: translateY(0%);
+  }
+
+  10% {
+    transform: scale(1.3);
+  }
+}
+
