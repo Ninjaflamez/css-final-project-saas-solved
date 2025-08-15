@@ -371,22 +371,22 @@ nav a:hover {
     align-items: center;
 }
 
-/* .outline-wrapper {
+.outline-wrapper {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 100%;
 
 }
 
 .outlineone, .outlinetwo, .outlinethree {
-    border: 1px solid grey;
-    width: 10%;
-    height: 1px;
+    border-top: 1px solid lightgrey;
+    width: 100%;
+    height: 15px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-} */
+    align-items: flex-start;
+    justify-content: flex-start;
+}
 
 .bullet-one-wrapper, .bullet-two-wrapper, .bullet-three-wrapper, .bullet-four-wrapper {
     display: flex;
@@ -871,12 +871,32 @@ nav a:hover {
     gap: 10px;
 }
 
+.footer-list-responsive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.company-features-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.documentation-resources-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
 .company-container, .features-container, .documentation-container, .resources-container {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
 }
 
 .company-list, .features-list, .documentation-list, .resources-list {
@@ -884,6 +904,7 @@ nav a:hover {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    width: 100%;
     gap: 25px;
 }
 
@@ -893,6 +914,7 @@ nav a:hover {
     align-items: flex-start;
     gap: 15px;
     flex-direction: column;
+    width: 100%;
 }
 
 .help-icon-container, .your-account-icon-container {
@@ -913,7 +935,7 @@ nav a:hover {
     background-color: rgb(103, 139, 240);
     border-radius: 25px 25px 25px 25px;
     color: white;
-    width: 100%;
+    width: 30%;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -960,7 +982,18 @@ nav a:hover {
   }
 }
 
+
+/*Tablet Version*/
+
+
+
 @media (min-width :768px) AND (max-width: 1023px) {
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 .nav-options {
     display: none;
@@ -976,10 +1009,10 @@ nav a:hover {
 .header-wrapper {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     width: 100%;
-    height: 1000px;;
+    height: 800px;
 }
 
 .header-left-text-container {
@@ -988,6 +1021,7 @@ nav a:hover {
     justify-content: center;
     width: 100%;
     flex-direction: column;
+    height: 300px;
 }
 
 .top-header-text {
@@ -1004,11 +1038,19 @@ nav a:hover {
     height: 75px;
 }
 
+.header-right-icons-row-one {
+    padding-right: 100px;
+}
+
+.header-right-icons-row-two {
+    display: none;
+}
+
 .header-right-logos {
     display: flex;
     height: 300px;
     width: 100%;
-    padding:25px;
+    /* padding: 25px; */
     
 }
 
@@ -1016,14 +1058,165 @@ nav a:hover {
     pointer-events: none;
 }
 
+.why-front-section-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 25px;
+}
 
+.pricing-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.pricing-section-bottom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 850px;
+}
+
+.price-left-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid lightgrey;
+}
+
+.price-left-box-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.price-value {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.pricing-section-top-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.hire-us-text-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.hire-us-text, .hire-us-quote-person-container  {
+    width: 100%;
+}
+
+.hire-us-text, .hire-us-text-small {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.form-container {
+    width: 100%;
+}
+
+.form-section-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1250px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 25%;
+}
+
+.company-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.footer-list-responsive {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.company-features-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.documentation-resources-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.company-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
 
 }
 
+
+
+
+
+
+
+
+
+
+
+/*Mobile version*/
+
+
+
+
 @media (max-width: 767px) {
 
-    .nav-options {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}    
+
+.nav-options {
     display: none;
 }
 
@@ -1036,7 +1229,7 @@ nav a:hover {
 
 .header-wrapper {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     flex-direction: column;
     width: 100%;
@@ -1095,5 +1288,12 @@ nav a:hover {
     gap: 10px;
 }
 
+.why-front-bullet-list-container {
+    width: 100%;
+}
+
+/* .why-front-bullet-list {
+    dis
+} */
 
 }
