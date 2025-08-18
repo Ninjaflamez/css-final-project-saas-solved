@@ -826,14 +826,6 @@ nav a:hover {
     transition: 0.3s ease-in-out;
 }
 
-.footer-contact-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 100%;
-}
-
 .footer-address, .footer-phone {
     display: flex;
     flex-flow: column;
@@ -845,9 +837,10 @@ nav a:hover {
 
 .footer-contact-info {
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 100%;
+    width: 35%;
     height: 100%;
     gap: 20px;
 }
@@ -882,14 +875,14 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 100%;
 }
 
 .documentation-resources-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 100%;
 }
 
 .company-container, .features-container, .documentation-container, .resources-container {
@@ -1148,9 +1141,16 @@ nav a:hover {
 
 .footer-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
-    width: 25%;
+    width: 30%;
+}
+
+.footer-contact-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
 }
 
 .company-header {
@@ -1163,8 +1163,8 @@ nav a:hover {
 .footer-list-responsive {
     display: flex;
     width: 100%;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-flow: row wrap;
 }
 
@@ -1177,17 +1177,17 @@ nav a:hover {
 
 .documentation-resources-container {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     width: 100%;
     gap: 30px;
 }
 
-.company-container {
+.company-container, .features-container, .documentation-container, .resources-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 25%;
 }
 
 
@@ -1292,8 +1292,6 @@ nav a:hover {
     width: 100%;
 }
 
-/* .why-front-bullet-list {
-    dis
-} */
+
 
 }
