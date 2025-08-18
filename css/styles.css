@@ -866,29 +866,15 @@ nav a:hover {
 
 .footer-list-responsive {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
-.company-features-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.documentation-resources-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     width: 100%;
 }
 
 .company-container, .features-container, .documentation-container, .resources-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 25%;
 }
 
