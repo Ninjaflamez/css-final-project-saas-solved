@@ -382,7 +382,7 @@ nav a:hover {
 .outlineone, .outlinetwo, .outlinethree {
     border-top: 1px solid lightgrey;
     width: 100%;
-    height: 15px;
+    height: 60px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -1129,7 +1129,7 @@ nav a:hover {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 30%;
+    width: 100%;
 }
 
 .footer-contact-info {
@@ -1139,42 +1139,35 @@ nav a:hover {
     width: 100%;
 }
 
-.company-header {
+/* .company-header {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     width: 100%;
-}
+} */
 
 .footer-list-responsive {
     display: flex;
     width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.company-container, .documentation-container, .features-container, .resources-container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-flow: column;
+}
+
+ .company-list, .features-list {
+    display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    flex-flow: row wrap;
-}
-
-.company-features-container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
     width: 100%;
-}
-
-.documentation-resources-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    gap: 30px;
-}
-
-.company-container, .features-container, .documentation-container, .resources-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 25%;
-}
+ }
 
 
 }
@@ -1219,12 +1212,13 @@ nav a:hover {
     justify-content: flex-start;
     flex-direction: column;
     width: 100%;
-    height: 1000px;
+    height: 900px;
 }
 
 .header-right-logos {
     display: flex;
     width: 100%;
+    height: 1000px;
     justify-content: center;
     padding-right: 100px;
     padding-bottom: 200px;
@@ -1259,24 +1253,134 @@ nav a:hover {
     pointer-events: none;
 }
 
+.why-front-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+
 .why-front-text-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    height: fit-content;
 }
 
-.why-front-bullet-list-container, .why-front-bullet-list{
+.why-front-small-text {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    width: 50%;
 }
 
 .why-front-bullet-list-container {
     width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
+
+.why-front-bullet-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+}
+
+.basic-elements-container, .components-container, .combined-components-container, .page-layouts-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.outline-wrapper {
+    display: none;
+}
+
+.pricing-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+}
+
+.pricing-section-bottom-container {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.price-left-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid lightgrey;
+}
+
+.price-left-box-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.price-value {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.pricing-section-top-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.price-right-box {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.price-right-box-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.price-right-top-left-header-text-small, .price-right-top-right-text-small, .price-right-bottom-text-small, .price-right-bottom-right-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+
+
+
 
 
 
