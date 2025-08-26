@@ -1378,10 +1378,107 @@ nav a:hover {
     width: 100%;
 }
 
+.form-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
 
+.hire-us-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
 
+.hire-us-quote-person-container {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
 
+.hire-us-text, .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.quote-person-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 100%;
+    height: fit-content;
+}
+
+.first-last-name-input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: fit-content;
+}
+
+.select-options-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    gap: 10px;
+}
+
+.footer-contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.footer-list-responsive, .company-container, .features-container, .documentation-container, .resources-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: fit-content;
+    gap: 10px;
+}
+
+.company-list, .company-list-items, .features-list, .features-list-items, .documentation-list, .documentation-items-list, .resources-list, .resources-items-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.werehiring-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
 
 }
