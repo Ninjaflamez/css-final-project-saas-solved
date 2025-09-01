@@ -1240,6 +1240,7 @@ nav a:hover {
     justify-content: center;
     width: 100%;
     flex-direction: column;
+    height: fit-content;
 }
 
 .top-header-text {
@@ -1248,6 +1249,7 @@ nav a:hover {
     align-items: center;
     flex-direction: row wrap;
     width: 100%;
+    height: fit-content;
   
 }
 
